@@ -15,7 +15,7 @@ const clone = require('./clone');
 const createExecuteDelegateModule = require('./createExecuteDelegateModule');
 const getRuleFetchFn = require('./getRuleFetchFn');
 
-const PROMISE_TIMEOUT = 5000;
+const PROMISE_TIMEOUT = 30000;
 
 module.exports = (
   moduleProvider,
